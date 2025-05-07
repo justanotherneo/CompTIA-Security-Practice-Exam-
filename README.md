@@ -5,21 +5,36 @@ Security+ Practice Exam. 500 unique Security+ questions. Command line program.
 
 A Python command-line quiz application to help users study for the CompTIA Security+ exam. Each question is multiple choice as has a full explanation of the correct answer and user score tracking.
 
-## Features
-
-- Multiple-choice Exam
-- Randomized questions without repetition
-- User answer tracking and detailed score review
-- Exit anytime by typing `'q'` or `'quit'`
-
 ## Requirements
 
-- Python 3.7+
+   - Python 3.7+
+   
+Installation
+   
+       Clone or download this repository and place the files in a folder (e.g., quiz-app).
+   
+       Open a terminal and navigate to the project directory:
+   
+            cd path/to/quiz-app
+   
+       (Optional) Create and activate a virtual environment:
+   
+   Windows:
+   
+   python -m venv venv
+   venv\Scripts\activate
+   
+   macOS/Linux:
+   
+   python3 -m venv venv
+   source venv/bin/activate
 
-## Installation
+    Install dependencies (this project uses no external packages, but the step is included for good practice):
 
-1. Clone the repository:
+pip install -r requirements.txt
 
-   ```bash
-   git clone https://github.com/yourusername/security-plus-port-quiz.git
-   cd security-plus-port-quiz
+Running the Program
+
+   Then run the program with:
+   
+   python main.py
